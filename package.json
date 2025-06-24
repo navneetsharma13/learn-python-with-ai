@@ -1,0 +1,12 @@
+{
+  "name": "agenticai-ppl",
+  "version": "1.0.0",
+  "description": "This project is an MCP (Model Context Protocol) server for a web-based Agentic AI platform focused on personalized Python learning. It supports multi-LLM chatbot interactions, resource curation, documentation generation, and integration with Google Drive, Gmail, Notion, and Canva.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

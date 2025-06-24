@@ -1,0 +1,17 @@
+[project]
+name = "agenticai-ppl"
+version = "0.1.0"
+description = "Agentic AI MCP server for personalized Python learning platform"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.9.4",]
+[[project.authors]]
+name = "navneetsharma13"
+email = "sharma.navneet092@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+agenticai-ppl = "agenticai_ppl:main"

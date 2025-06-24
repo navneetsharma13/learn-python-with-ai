@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "agenticai-ppl": {
+      "type": "stdio",
+      "command": "uvicorn",
+      "args": [
+        "agenticai_ppl.main:app",
+        "--reload"
+      ]
+    }
+  }
+}
